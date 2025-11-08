@@ -15,6 +15,6 @@ public class Beans {
         remetente.setNome("Digital Innovation One");
         return remetente;--esse é o codigo da DIO*/
 
-        return new Remetente();
+        return new Remetente();*/
     }
 }
