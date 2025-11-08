@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Scope;
 @SpringBootApplication
 public class SpringPrimeirosPassosApplication {
 
-	@Bean("remetentePrototype")
+	@Bean  //("remetentePrototype")
 	@Scope("prototype")
 	public Remetente remetente() {
 		System.out.println("CRIANDO UM OBJETO REMETENTE");
